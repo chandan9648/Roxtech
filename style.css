@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+
+}
+
+#nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#nav h3 {
+    font-size: 17px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 9px;
+
+}
+
+#nav i {
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 8px;
+    box-shadow: 1px 2px rgba(165, 42, 42, 0.454);
+
+}
+
+#nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    margin-top: 4px;
+    margin-left: 400px;
+
+}
+
+#nav h1 {
+    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+
+}
+
+#btn1 {
+    color: blue;
+    text-shadow: 0.5px 0.5px;
+    box-shadow: 2px 2px 3px hotpink;
+}
+
+#btn2 {
+    text-shadow: 1px 1px;
+    color: black;
+    box-shadow: 2px 2px 1.5px orchid;
+}
+
+#model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    font-weight: 2000;
+    margin-top: 220px;
+}
+
+img {
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    position: absolute;
+    object-fit: cover;
+    top: 39%;
+    left: 46%;
+    transform: translate(-50px, -50px);
+}
+
+#img1 {
+    transform: translate(-50px, -50px) rotate(-30deg);
+}
+
+#img1:hover {
+    color: aqua;
+}
+
+#img2 {
+    transform: translate(-50px, -50px) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50px, -50px) rotate(-10deg);
+}
+
+#btm-left {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: 17px;
+}
+
+#social i {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+#fb {
+    position: absolute;
+    right: 3.5%;
+    bottom: 5%;
+
+}
+
+#yt {
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+}
